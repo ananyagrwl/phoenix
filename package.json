@@ -1,0 +1,25 @@
+{
+  "name": "phoenix",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ananya",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.22.0"
+  }
+}
